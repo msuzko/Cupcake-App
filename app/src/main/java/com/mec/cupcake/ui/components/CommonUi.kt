@@ -23,7 +23,7 @@ import androidx.compose.ui.res.stringResource
 import com.mec.cupcake.R
 
 /**
- * Composable that displays formatted [price] that will be formatted and displayed on screen
+ * Composable that displays formatted [subtotal] that will be formatted and displayed on screen
  */
 @Composable
 fun FormattedPriceLabel(subtotal: String, modifier: Modifier = Modifier) {
