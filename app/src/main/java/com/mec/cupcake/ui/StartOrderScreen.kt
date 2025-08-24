@@ -32,6 +32,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -65,7 +66,7 @@ fun StartOrderScreen(
             Image(
                 painter = painterResource(R.drawable.cupcake),
                 contentDescription = null,
-                modifier = Modifier.width(300.dp)
+                modifier = Modifier.width(300.dp).testTag("Cupcake Image")
             )
             Spacer(modifier = Modifier.height(dimensionResource(R.dimen.padding_medium)))
             Text(
